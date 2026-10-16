@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Who Moves First? Information Diffusion between Nasdaq-100 and S&P 500 Markets"
+abstract: >-
+  Measures how fast new information spreads between E-mini Nasdaq-100 and S&P 500
+  futures (NQ, ES) and the ETFs that track the same indices (QQQ, SPY), using ten
+  years of 1-minute data (2016-2026), 1-second data (July-October 2026) and 453
+  macro announcements, with validated lead-lag measures, an event study and a
+  trading-cost analysis.
+authors:
+  - family-names: "Fueyo Montalvo"
+    given-names: "Unai"
+    affiliation: "Universidad Autónoma de Madrid"
+version: "1.0"
+date-released: "2026-10-16"
+license: MIT
+repository-code: "https://github.com/unaifmm/information-diffusion-nasdaq-sp500"
+keywords:
+  - lead-lag
+  - price discovery
+  - market microstructure
+  - high-frequency data
+  - event study
+  - futures
+  - ETFs

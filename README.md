@@ -1,5 +1,9 @@
 # Who Moves First? Information Diffusion between Nasdaq-100 and S&P 500 Markets
 
+[![tests](https://github.com/unaifmm/information-diffusion-nasdaq-sp500/actions/workflows/tests.yml/badge.svg)](https://github.com/unaifmm/information-diffusion-nasdaq-sp500/actions/workflows/tests.yml)
+![Python 3.13](https://img.shields.io/badge/python-3.13-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 **How fast does new information spread between the two largest US equity-index markets, and where is it priced first?**
 
 When news hits the market (a CPI print, an FOMC decision, NVIDIA earnings, a large order), it does not reach every price at the same instant. This project measures that *diffusion* of information for the E-mini futures (NQ, ES) and the ETFs (QQQ, SPY) that track the Nasdaq-100 and the S&P 500. It uses ten years of 1-minute data (2016-2026), 1-second data for July-October 2026 and 453 macro announcements.
@@ -207,6 +211,7 @@ The download needs a London Strategic Edge API key saved with `lse auth <key>`. 
 ├── 10_economic_significance.py can the lead be traded after costs? (1-minute and 1-second)
 ├── run_all.py                  one command: tests + every script in order
 ├── LICENSE                     MIT
+├── CITATION.cff                how to cite this project (GitHub's "Cite this repository" button)
 ├── .github/workflows/tests.yml runs the unit tests on GitHub at every change
 ├── src/
 │   ├── config.py               instruments, contract specs, folders
@@ -219,6 +224,7 @@ The download needs a London Strategic Edge API key saved with `lse auth <key>`. 
 │   ├── simulate.py             toy market with a known lead-lag
 │   └── plots.py                shared chart style
 ├── tests/                      unit tests (pytest), no data needed
+├── docs/                       social preview image (the report PDF goes here too)
 ├── figures/                    output charts
 └── results/                    output tables (CSV)
 ```
