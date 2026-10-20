@@ -10,6 +10,8 @@ When news hits the market (a CPI print, an FOMC decision, NVIDIA earnings, a lar
 
 *Unai Fueyo Montalvo · BSc Economics, Universidad Autónoma de Madrid · [LinkedIn](https://www.linkedin.com/in/unai-fueyo-montalvo-63823339b)*
 
+**Read the paper:** [full paper (PDF, 12 pages)](docs/Who_Moves_First_paper.pdf) · [one-page summary (PDF)](docs/Who_Moves_First_summary.pdf)
+
 ## Key findings
 
 1. **Standard tests can invent a lead.** A coarser tick size alone made Granger tests report a lead in 11 of 11 years of data built with no lead. The "net lead" measure used here was validated instead: it recovers a planted 3.0 pp lead at 3.05-3.15 pp.
@@ -224,7 +226,7 @@ The download needs a London Strategic Edge API key saved with `lse auth <key>`. 
 │   ├── simulate.py             toy market with a known lead-lag
 │   └── plots.py                shared chart style
 ├── tests/                      unit tests (pytest), no data needed
-├── docs/                       social preview image (the report PDF goes here too)
+├── docs/                       the paper, its one-page summary and the social preview image
 ├── figures/                    output charts
 └── results/                    output tables (CSV)
 ```
